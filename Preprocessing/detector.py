@@ -3,7 +3,7 @@ import json
 import os
 import pandas as pd
 from PIL import Image
-from preprocessing2 import VisualPreprocess  # Module for video processing
+from preprocessing import VisualPreprocess  # Module for video processing
 
 
 def process_multiple_videos(video_target, video_paths, output_dir, processor, label):
